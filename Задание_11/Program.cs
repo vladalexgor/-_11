@@ -13,9 +13,9 @@ namespace Задание_11
         static void Main(string[] args)
         {
             Console.WriteLine("Программа решает линейное уравнение 0=kx+b.");
-            Console.WriteLine("Введите коэффециент k:");
+            Console.WriteLine("Введите числовой коэффециент k:");
             double k1 = Convert.ToDouble(Console.ReadLine());
-            Console.WriteLine("Введите коэффециент b:");
+            Console.WriteLine("Введите числовой коэффециент b:");
             double b1 = Convert.ToDouble(Console.ReadLine());
             LinearEquation equation = new LinearEquation();
             Console.WriteLine("Решение: x = {0:f3}", equation.Root(k1, b1));
